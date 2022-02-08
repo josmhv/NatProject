@@ -1,3 +1,21 @@
-.inputNote {
+.AddNote {
 	display: none;
+	padding-top: 12px;
+}
+
+.inputNote {
+	box-sizing: border-box;
+	// width: 88px;
+	// height: 22px;
+	height: 5rem;
+	width: 100%;
+	// transition: height 0.4s ease-in-out, width 0.4s ease-in-out;
+	outline: none;
+	border: 1px solid;
+	border-radius: 2px;
+}
+input[type='text']:focus {
+	border: 2px solid rgb(0, 0, 0);
+	// height: 5rem;
+	// width: 100%;
 }
